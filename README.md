@@ -8,6 +8,8 @@ By only using OS resources, it is possible to replace the RID of an user right b
 
 [post/windows/manage/rid_hijack](https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/manage/rid_hijack.rb)
 
+![rid_hijack](https://github.com/r4wd3r/RID-Hijacking/blob/master/rid_hijack.png)
+
 ## Overview
 
 This module will create an entry on the target by modifying some properties of an existing account. It will change the account attributes by setting a Relative Identifier (RID), which should be owned by one existing account on the destination machine.
