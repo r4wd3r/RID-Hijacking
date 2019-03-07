@@ -1,8 +1,4 @@
-## Overview
-
-The **RID Hijacking** hook, applicable to all Windows versions, allows setting desired privileges to an existent account in a stealthy manner by modifying some security attributes of an user.
-
-By only using OS resources, it is possible to replace the RID of an user right before the access token is created. Taking advantage of some Windows Local Users Management integrity issues, this module will allow to authenticate with one known account credentials (like GUEST account), and access with the privileges of another existing account (like ADMINISTRATOR account), even if the spoofed account is disabled.
+# Windows RID Hijacking with CrackMapExec
 
 ## Module Testing
 The module `Invoke-RIDHijacking` is compatible with Powershell >=2.0. It requires administrative privileges to be executed. 
