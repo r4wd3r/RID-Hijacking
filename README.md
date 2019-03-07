@@ -3,29 +3,17 @@
 
 The **RID Hijacking** hook, applicable to all Windows versions, allows setting desired privileges to an existent account in a stealthy manner by modifying some security attributes of an user.
 
-By only using OS resources, it is possible to replace the RID of an user right before the access token is created. To automatize the attack, a Metasploit module was developed. It requires a *meterpreter* session against the victim.
+By only using OS resources, it is possible to replace the RID of an user right before the primary access token is created, allowing to spoof the privileges of the hijacked RID owner.
 
-## Metasploit Module
+## Modules
+- [RID Hijacking with Metasploit](https://github.com/r4wd3r/RID-Hijacking/tree/master/modules/metasploit)
+- [RID Hijacking with Powershell](https://github.com/r4wd3r/RID-Hijacking/tree/master/modules/powershell)
+- [RID Hijacking with Empire](https://github.com/r4wd3r/RID-Hijacking/tree/master/modules/empire)
+- [RID Hijacking with Crackmapexec](https://github.com/r4wd3r/RID-Hijacking/tree/master/modules/cme)
+- [RID Hijacking with ibombshell](https://github.com/r4wd3r/RID-Hijacking/tree/master/modules/ibombshell)
 
-[post/windows/manage/rid_hijack](https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/manage/rid_hijack.rb)
-
-![rid_hijack](https://github.com/r4wd3r/RID-Hijacking/blob/master/rid_hijack.png)
-
-## Powershell: Invoke-RIDHijacking
-
-![rid_hijack](https://github.com/r4wd3r/RID-Hijacking/blob/master/modules/powershell/rid_hijack_posh.png)
-
-## Empire
-
-![rid_hijack](https://github.com/r4wd3r/RID-Hijacking/blob/master/modules/empire/rid_hijack_empire.png)
-
-## CrackMapExec
-
-![rid_hijack](https://github.com/r4wd3r/RID-Hijacking/blob/master/modules/cme/rid_hijack_cme.PNG)
-
-## ibombshell
-
-![rid_hijack](https://github.com/r4wd3r/RID-Hijacking/blob/master/modules/ibombshell/rid_hijack_ibombshell.png)
+## Slides
+[Derbycon 8.0](https://github.com/r4wd3r/RID-Hijacking/blob/master/slides/derbycon-8.0/RID_HIJACKING_DERBYCON_2018.pdf)
 
 ## References
 
