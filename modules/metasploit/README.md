@@ -1,4 +1,4 @@
-## Overview
+# Windows RID Hijacking with Metasploit
 
 This module will create an entry on the target by modifying some properties of an existing account. It will change the account attributes by setting a Relative Identifier (RID), which should be owned by one existing account on the destination machine.
 
