@@ -77,7 +77,7 @@ https://gallery.technet.microsoft.com/scriptcenter/PowerShell-Get-username-fdcb6
 
 
 .LINK
-https://csl.com.co/rid-hijacking/
+https://r4wsec.com/notes/rid_hijacking/
 https://r4wsecurity.blogspot.com/2017/12/rid-hijacking-maintaining-access-on.html
 https://github.com/r4wd3r/RID-Hijacking
 
