@@ -133,4 +133,4 @@ msf post(rid_hijack) > run
 
 ## References
 
-[CSL LABS: RID Hijacking on Windows](http://csl.com.co/rid-hijacking/)
+https://r4wsec.com/notes/rid_hijacking/
