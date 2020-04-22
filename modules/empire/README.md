@@ -16,5 +16,7 @@ This module has been tested against:
 
 ## References
 https://github.com/r4wd3r/RID-Hijacking
-https://csl.com.co/rid-hijacking/
+
 https://r4wsecurity.blogspot.com/2017/12/rid-hijacking-maintaining-access-on.html
+
+https://r4wsec.com/notes/rid_hijacking/
