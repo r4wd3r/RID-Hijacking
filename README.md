@@ -17,4 +17,4 @@ By only using OS resources, it is possible to replace the RID of an user right b
 
 ## References
 
-[r4wsecurity: RID Hijacking - Maintaining access on Windows Machines](https://r4wsecurity.blogspot.com/2017/12/rid-hijacking-maintaining-access-on.html)
+[r4wsecurity: RID Hijacking - Maintaining access on Windows Machines](https://r4wsec.com/notes/rid_hijacking/)
